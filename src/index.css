@@ -2,21 +2,21 @@
 
 /* Logo Font */
 @font-face {
-    font-family: 'LemonMilk';
-    src: url('/LEMONMILK-Bold.otf') format('opentype');
-    font-weight: bold;
-    font-style: bold;
+    font-family: 'CarterOne';
+    src: url('/CarterOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
-@font-face {
+/* @font-face {
     font-family: 'LemonMilk';
     src: url('/LEMONMILK-Medium.otf') format('opentype');
     font-weight: medium;
     font-style: medium;
-}
+} */
 
 @theme {
-    --font-LemonMilk: LemonMilk, sans-serif;
+    --font-CarterOne: CarterOne, sans-serif;
     /* --font-sans: BrandonGrotesque, sans-serif */
 }
 
@@ -30,7 +30,7 @@
     default: true;
 
     /* Intelligence Green */
-    --color-primary: rgb(253,199,0);
+    --color-primary: rgb(242,52,59);
     /* Energy Blue */
     --color-secondary: rgb(16, 16, 124);
     /* Daylight Orange */
