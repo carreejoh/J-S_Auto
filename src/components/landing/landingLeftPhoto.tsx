@@ -23,14 +23,14 @@ const LandingLeftPhoto = React.forwardRef<HTMLDivElement, LandingLeftPhotoProps>
         style={{ backgroundImage: `url(${landingConfig.landing_img})` }}
       >
         {/* Background darkening layer */}
-        <div className="absolute inset-0 bg-gray-800 opacity-80"></div>
+        <div className="absolute inset-0 bg-gray-800 opacity-30"></div>
 
         {/* Angled overlay — only visible on md+ */}
         <div
           className="absolute inset-0 z-0 hidden md:block"
           style={{
             clipPath,
-            backgroundColor: "rgba(23, 23, 22, .9)",
+            backgroundColor: "rgba(23, 23, 22, .8)",
           }}
         />
 
