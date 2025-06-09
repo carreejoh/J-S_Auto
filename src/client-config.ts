@@ -215,7 +215,7 @@ export const contactConfig = {
     { day: "Wednesday", time: "8 AM - 6 PM" },
     { day: "Thursday", time: "8 AM - 6 PM" },
     { day: "Friday", time: "8 AM - 6 PM" },
-    { day: "Saturday", time: "9 AM - 4 PM" },
+    { day: "Saturday", time: "8 AM - 3 PM" },
     { day: "Sunday", time: "Closed" },
   ]
 }
