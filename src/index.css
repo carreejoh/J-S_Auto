@@ -3,17 +3,10 @@
 /* Logo Font */
 @font-face {
     font-family: 'CarterOne';
-    src: url('/CarterOne-Regular.ttf') format('truetype');
+    src: url('/fonts/CarterOne-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
-
-/* @font-face {
-    font-family: 'LemonMilk';
-    src: url('/LEMONMILK-Medium.otf') format('opentype');
-    font-weight: medium;
-    font-style: medium;
-} */
 
 @theme {
     --font-CarterOne: CarterOne, sans-serif;
@@ -21,12 +14,12 @@
 }
 
 @plugin "daisyui" {
-    themes: corporate --default
+    themes: business --default
 }
 
 /* Light mode */
 @plugin "daisyui/theme" {
-    name: "corporate";
+    name: "business";
     default: true;
 
     /* Intelligence Green */
